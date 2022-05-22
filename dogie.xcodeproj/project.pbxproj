@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E566FD0D92DF7FB823C6738 /* Pods_dogie_dogieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1241C8869EFC4CFE94EF3F1 /* Pods_dogie_dogieUITests.framework */; };
+		51AB211F265403E4E5FE963A /* Pods_dogieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564B007AED14F58D79CC7AEC /* Pods_dogieTests.framework */; };
 		78A69484283A747D0016C402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A69483283A747D0016C402 /* AppDelegate.swift */; };
 		78A69486283A747D0016C402 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A69485283A747D0016C402 /* SceneDelegate.swift */; };
 		78A69488283A747D0016C402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A69487283A747D0016C402 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		78A6949B283A74810016C402 /* dogieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6949A283A74810016C402 /* dogieTests.swift */; };
 		78A694A5283A74810016C402 /* dogieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A694A4283A74810016C402 /* dogieUITests.swift */; };
 		78A694A7283A74810016C402 /* dogieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A694A6283A74810016C402 /* dogieUITestsLaunchTests.swift */; };
+		B5D367AA483CD3EFEA7DE91C /* Pods_dogie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FD279D154901A2AB658406 /* Pods_dogie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C4A21DF89DF31A861A3EB8B /* Pods-dogieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogieTests.release.xcconfig"; path = "Target Support Files/Pods-dogieTests/Pods-dogieTests.release.xcconfig"; sourceTree = "<group>"; };
+		564B007AED14F58D79CC7AEC /* Pods_dogieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6273E83CBA6E0CA895946ECB /* Pods-dogieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogieTests.debug.xcconfig"; path = "Target Support Files/Pods-dogieTests/Pods-dogieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		644BFB64F34EFBD525DCFBC0 /* Pods-dogie-dogieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogie-dogieUITests.release.xcconfig"; path = "Target Support Files/Pods-dogie-dogieUITests/Pods-dogie-dogieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		723FACF05FA8D7087301ECB7 /* Pods-dogie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogie.debug.xcconfig"; path = "Target Support Files/Pods-dogie/Pods-dogie.debug.xcconfig"; sourceTree = "<group>"; };
 		78A69480283A747D0016C402 /* dogie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A69483283A747D0016C402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78A69485283A747D0016C402 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		78A694A0283A74810016C402 /* dogieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dogieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A694A4283A74810016C402 /* dogieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogieUITests.swift; sourceTree = "<group>"; };
 		78A694A6283A74810016C402 /* dogieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90188A953B1D64159E0AB24A /* Pods-dogie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogie.release.xcconfig"; path = "Target Support Files/Pods-dogie/Pods-dogie.release.xcconfig"; sourceTree = "<group>"; };
+		BA3CA967ECB99AE7B8DE2FBA /* Pods-dogie-dogieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogie-dogieUITests.debug.xcconfig"; path = "Target Support Files/Pods-dogie-dogieUITests/Pods-dogie-dogieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1241C8869EFC4CFE94EF3F1 /* Pods_dogie_dogieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogie_dogieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FD279D154901A2AB658406 /* Pods_dogie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D367AA483CD3EFEA7DE91C /* Pods_dogie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AB211F265403E4E5FE963A /* Pods_dogieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E566FD0D92DF7FB823C6738 /* Pods_dogie_dogieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D47C7DE614C74B85E049C62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3FD279D154901A2AB658406 /* Pods_dogie.framework */,
+				D1241C8869EFC4CFE94EF3F1 /* Pods_dogie_dogieUITests.framework */,
+				564B007AED14F58D79CC7AEC /* Pods_dogieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77B966969A3C700977292B12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				723FACF05FA8D7087301ECB7 /* Pods-dogie.debug.xcconfig */,
+				90188A953B1D64159E0AB24A /* Pods-dogie.release.xcconfig */,
+				BA3CA967ECB99AE7B8DE2FBA /* Pods-dogie-dogieUITests.debug.xcconfig */,
+				644BFB64F34EFBD525DCFBC0 /* Pods-dogie-dogieUITests.release.xcconfig */,
+				6273E83CBA6E0CA895946ECB /* Pods-dogieTests.debug.xcconfig */,
+				3C4A21DF89DF31A861A3EB8B /* Pods-dogieTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		78A69477283A747D0016C402 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				78A69499283A74810016C402 /* dogieTests */,
 				78A694A3283A74810016C402 /* dogieUITests */,
 				78A69481283A747D0016C402 /* Products */,
+				77B966969A3C700977292B12 /* Pods */,
+				3D47C7DE614C74B85E049C62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78A694AA283A74810016C402 /* Build configuration list for PBXNativeTarget "dogie" */;
 			buildPhases = (
+				CBEE8B59107A385817A71807 /* [CP] Check Pods Manifest.lock */,
 				78A6947C283A747D0016C402 /* Sources */,
 				78A6947D283A747D0016C402 /* Frameworks */,
 				78A6947E283A747D0016C402 /* Resources */,
+				59BA21A79C0BCDCD206A3611 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78A694AD283A74810016C402 /* Build configuration list for PBXNativeTarget "dogieTests" */;
 			buildPhases = (
+				34A0D6FA5DC2593FD91500B4 /* [CP] Check Pods Manifest.lock */,
 				78A69492283A74810016C402 /* Sources */,
 				78A69493283A74810016C402 /* Frameworks */,
 				78A69494283A74810016C402 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78A694B0283A74810016C402 /* Build configuration list for PBXNativeTarget "dogieUITests" */;
 			buildPhases = (
+				5CBBCF38996D1067682841E7 /* [CP] Check Pods Manifest.lock */,
 				78A6949C283A74810016C402 /* Sources */,
 				78A6949D283A74810016C402 /* Frameworks */,
 				78A6949E283A74810016C402 /* Resources */,
+				342767FF5EE60810BE784102 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		342767FF5EE60810BE784102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogie-dogieUITests/Pods-dogie-dogieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogie-dogieUITests/Pods-dogie-dogieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dogie-dogieUITests/Pods-dogie-dogieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34A0D6FA5DC2593FD91500B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BA21A79C0BCDCD206A3611 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogie/Pods-dogie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogie/Pods-dogie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dogie/Pods-dogie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBBCF38996D1067682841E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogie-dogieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBEE8B59107A385817A71807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78A6947C283A747D0016C402 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		78A694AB283A74810016C402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723FACF05FA8D7087301ECB7 /* Pods-dogie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		78A694AC283A74810016C402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90188A953B1D64159E0AB24A /* Pods-dogie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		78A694AE283A74810016C402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6273E83CBA6E0CA895946ECB /* Pods-dogieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		78A694AF283A74810016C402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4A21DF89DF31A861A3EB8B /* Pods-dogieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		78A694B1283A74810016C402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3CA967ECB99AE7B8DE2FBA /* Pods-dogie-dogieUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		78A694B2283A74810016C402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644BFB64F34EFBD525DCFBC0 /* Pods-dogie-dogieUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
